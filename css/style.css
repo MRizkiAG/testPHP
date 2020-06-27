@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Comic Neue', cursive;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 40px;
+}
+
+header {
+    background-color: #2f2fa1;
+    width: 100%;
+}
+
+.header-kiri {
+    margin: 0 20px;
+    width: 90%;
+}
+
+.header-kiri li {
+    font-size: 14px;
+    float: left;
+    line-height: 60px;
+    padding: 0 20px;
+    width: 70px;
+    text-align: center;
+    color: white;
+}
+
+.header-kiri li:hover {
+    color: #2f2fa1;
+    background-color: white;
+    transition: .5s;
+}
+
+.header-kiri>ul {
+    float: left;
+}
+
+.header-kanan {
+    float: right;
+    width: 10%;
+    line-height: 60px;
+    text-align: right;
+}
+
+.gambarAdmin img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+.header-kanan h1 {
+    font-size: 12px;
+    color: white;
+    display: inline;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ===========KONTEN=========================================================================== */
+.judul-konten h1 {
+    padding: 15px 0;
+}
+
+.top-konten {
+    padding : 20px;
+    border: 1px solid #c2c2c2;
+    border-radius: 20px;
+    box-shadow: #c2c2c2 2px 2px 5px;
+}
+
+.tambah a {
+    float: left;
+    display: block;
+    background-color: #5cdb94;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #585770;
+}
+
+.tambah a:hover {
+    background-color: #585770;
+    color: #5cdb94;
+    transition: .5s;
+}
+
+.tambah a:active {
+    box-shadow: #5cdb94 0px 0px 10px;
+    transition: 0s;
+
+}
+
+
+.pencarian {
+    float: right;
+}
+
+.pencarian input {
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.pencarian button {
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #585770;
+}
+
+.pencarian button:hover {
+    background-color: #585770;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.pencarian button:active {
+    box-shadow: black 0px 0px 10px;
+    transition: 0s;
+
+}
+
+.konten {
+    margin-top: 20px;
+    padding : 20px;
+    border: 1px solid #c2c2c2;
+    border-radius: 20px;
+    box-shadow: #c2c2c2 2px 2px 5px;
+}
+
+
+.tabelJudul {
+    color: #c2c2c2;
+    text-align: center;
+}
+
+td {
+    width: 200px;
+}
+
+.tabelJudul > td { 
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.tabelIsi {
+    text-align: center;
+}
+
+.tabelIsi td {
+    padding: 5px 10px;
+}
+
+.fotoLaptop {
+    width: 200px;
+}
+
+.fa-edit {
+    color: orange;
+}
+
+.fa-edit:hover {
+    transform: translate(0px, -30px);
+    transition: .5s;
+}
+
+.fa-trash {
+    color: red;
+}
+
+.fa-trash:hover {
+    transform: translate(0px, -30px);
+    transition: .5s;
+}
+
