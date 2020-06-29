@@ -1,0 +1,144 @@
+@media all and (max-width: 900px){
+    table .tabelIsi {
+        font-size: 7px;
+    }
+
+    table .tabelJudul {
+        font-size: 11px;
+    }
+
+    .fotoLaptop {
+        width: 40px;
+    }
+
+    .header-kiri li {
+        font-size: 12px;
+    }
+
+    .header-kanan h1 {
+        font-size: 10px;
+    }
+
+    .gambarAdmin img {
+        width: 25px;
+        height: 25px;
+        padding: 18px 0 18px 0;
+    }
+
+    .tambah a {
+        font-size: 8px;
+    }
+
+    .pencarian input {
+        font-size: 8px;
+    }
+
+    .pencarian button {
+        font-size: 8px;
+    }
+
+    .fa-edit:hover {
+        transform: translate(0px, -10px);
+    }
+
+    .fa-trash:hover {
+        transform: translate(0px, -10px);
+    }
+}
+
+@media all and (max-width: 600px){
+    .header-kiri {
+        width: 80%;
+    }
+    .header-kanan {
+        width: 20%;
+    }
+    
+    .header-kiri li {
+        font-size: 7px;
+        padding: 5px;
+        width: 35px;
+        line-height: 30px;
+    }
+
+    .header-kanan {
+        line-height: 30px;
+    }
+
+    .gambarAdmin img {
+        width: 20px;
+        height: 20px;
+        padding: 10px 0 10px 0;
+    }
+
+    .header-kanan h1 {
+        font-size: 5px;
+    }
+
+    .judul-konten h1 {
+        font-size: 24px;
+    }
+
+    .tambah a {
+        float: none;
+        display: inline-block;
+        font-size: 6px;
+        padding: 3px 7px;
+    }
+
+    .pencarian {
+        float: none;
+    }
+
+    .pencarian input {
+        font-size: 6px;
+        padding: 2px 7px;
+    }
+
+    .pencarian button {
+        font-size: 6px;
+        padding: 2px 7px;
+    }
+
+    table .tabelIsi {
+        font-size: 10px;
+    }
+
+    table .tabelJudul {
+        font-size: 12px;
+    }
+
+    .fotoLaptop {
+        width: 10px;
+    }
+
+    .fa-edit:hover {
+        transform: translate(0px, -5px);
+    }
+
+    .fa-trash:hover {
+        transform: translate(0px, -5px);
+    }
+
+    td {
+        width: 40px;
+    }
+
+    .tabelIsi td {
+        padding: 1px 3px;
+    }
+}
+
+@media all and (max-width: 500px){
+    table .tabelIsi {
+        font-size: 3px;
+    }
+
+    table .tabelJudul {
+        font-size: 6px;
+    }
+
+    td {
+        width: 40px;
+    }
+}

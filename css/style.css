@@ -7,8 +7,9 @@
 }
 
 .container {
-    max-width: 1920px;
-    margin: 0 40px;
+    max-width: 1024px;
+    padding: 0 40px;
+    margin: 0 auto;
 }
 
 header {
@@ -18,7 +19,7 @@ header {
 
 .header-kiri {
     margin: 0 20px;
-    width: 90%;
+    width: 85%;
 }
 
 .header-kiri li {
@@ -35,6 +36,7 @@ header {
     color: #2f2fa1;
     background-color: white;
     transition: .5s;
+    cursor: pointer;
 }
 
 .header-kiri>ul {
@@ -43,7 +45,7 @@ header {
 
 .header-kanan {
     float: right;
-    width: 10%;
+    width: 15%;
     line-height: 60px;
     text-align: right;
 }
@@ -69,6 +71,7 @@ header {
 /* ===========KONTEN=========================================================================== */
 .judul-konten h1 {
     padding: 15px 0;
+    font-size: 32px;
 }
 
 .top-konten {
@@ -79,6 +82,7 @@ header {
 }
 
 .tambah a {
+    font-size: 16px;
     float: left;
     display: block;
     background-color: #5cdb94;
@@ -105,12 +109,14 @@ header {
 }
 
 .pencarian input {
+    font-size: 16px;
     border: 1px solid #c2c2c2;
     border-radius: 5px;
     padding: 5px 10px;
 }
 
 .pencarian button {
+    font-size: 16px;
     border: 1px solid #c2c2c2;
     border-radius: 5px;
     padding: 5px 10px;
@@ -138,6 +144,15 @@ header {
     box-shadow: #c2c2c2 2px 2px 5px;
 }
 
+table .tabelIsi {
+    border-spacing: none;
+    font-size: 16px;
+}
+
+table .tabelJudul {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 .tabelJudul {
     color: #c2c2c2;
@@ -145,7 +160,7 @@ header {
 }
 
 td {
-    width: 200px;
+    width: 100px;
 }
 
 .tabelJudul > td { 
@@ -162,7 +177,7 @@ td {
 }
 
 .fotoLaptop {
-    width: 200px;
+    width: 100px;
 }
 
 .fa-edit {
@@ -170,7 +185,7 @@ td {
 }
 
 .fa-edit:hover {
-    transform: translate(0px, -30px);
+    transform: translate(0px, -20px);
     transition: .5s;
 }
 
@@ -179,7 +194,7 @@ td {
 }
 
 .fa-trash:hover {
-    transform: translate(0px, -30px);
+    transform: translate(0px, -20px);
     transition: .5s;
 }
 
